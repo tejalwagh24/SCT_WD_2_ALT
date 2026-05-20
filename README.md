@@ -50,4 +50,8 @@ creating an immersive interactive experience.
 
 ## Author
 
-Developed for SkillCraft Technology Internship.
+Developed by Tejal Wagh.
+
+## 📸 Preview
+
+![Project Preview](assets/preview.png)
