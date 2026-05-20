@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>UNKNOWN — Computational Entity</title>
+
+  <!-- FONT -->
+
+  <link rel="preconnect"
+  href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap"
+  rel="stylesheet">
+
+  <!-- CSS -->
+
+  <link rel="stylesheet"
+  href="style.css">
+
+</head>
+
+<body>
+
+  <!-- CURSOR LIGHT -->
+
+  <div class="cursor"></div>
+
+
+  <!-- AMBIENT -->
+
+  <div class="ambient"></div>
+
+
+  <!-- NOISE -->
+
+  <div class="noise"></div>
+
+
+  <!-- SCANLINES -->
+
+  <div class="scanlines"></div>
+
+
+  <!-- SYSTEM -->
+
+  <main class="system">
+
+
+    <!-- BOOT -->
+
+    <section class="boot">
+
+      <p class="boot-line">
+        UNKNOWN SYSTEM INITIALIZED
+      </p>
+
+      <span class="status">
+        unstable computational entity active
+      </span>
+
+    </section>
+
+
+    <!-- INPUT -->
+
+    <section class="input-section">
+
+      <div class="prompt">
+        >
+      </div>
+
+      <input
+      type="text"
+      id="display"
+      placeholder="what do you want to know?"
+      autocomplete="off">
+
+    </section>
+
+
+    <!-- RESULT -->
+
+    <section class="result-section">
+
+      <p class="result-label">
+        OUTPUT
+      </p>
+
+      <h1 id="result">
+        —
+      </h1>
+
+    </section>
+
+
+    <!-- SYSTEM MESSAGE -->
+
+    <div id="system-message">
+
+      waiting for computation...
+
+    </div>
+
+
+    <!-- HISTORY -->
+
+    <section class="history-section">
+
+      <p class="history-title">
+        COMPUTATIONAL MEMORY
+      </p>
+
+      <div id="history"></div>
+
+    </section>
+
+  </main>
+
+
+  <!-- JS -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
